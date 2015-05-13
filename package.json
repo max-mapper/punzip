@@ -1,0 +1,24 @@
+{
+  "name": "punzip",
+  "version": "1.0.0",
+  "description": "partial unzip - can unzip and stream a single entry from a zip archive (requires fuse)",
+  "main": "index.js",
+  "bin": {
+    "punzip": "cli.js"
+  },
+  "author": "max ogden",
+  "license": "BSD",
+  "dependencies": {
+    "epipebomb": "^0.1.1",
+    "fuse-bindings": "^2.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxogden/punzip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/punzip/issues"
+  },
+  "homepage": "https://github.com/maxogden/punzip#readme"
+}
