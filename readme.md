@@ -1,5 +1,7 @@
 # punzip
 
+### experimental
+
 partial unzip. can unzip and stream a single entry from a zip archive (requires fuse)
 
 - `punzip <http-url-of-zip>` defaults to unzipping first entry and piping to stdout
